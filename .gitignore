@@ -1,0 +1,47 @@
+# ==============================================================================
+# Git Ignore - NotesApp
+# ==============================================================================
+
+# Claves privadas y certificados de AWS (NUNCA SUBIR A GIT)
+*.pem
+*.key
+*.cer
+*.crt
+
+# Variables de entorno y credenciales sensibles
+.env
+.env.*
+!.env.example
+
+# Entornos virtuales y paquetes de Python
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Archivos compilados y caches de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Scripts de mantenimiento interno, despliegue e infraestructura
+*.ps1
+*.sh
+setup_db_environments.py
+test_security.py
+
+# Reglas y configuraciones de asistentes e IDEs
+.cursor/
+AGENTS.md
+CLAUDE.md
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs del sistema
+*.log
