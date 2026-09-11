@@ -33,6 +33,7 @@ __pycache__/
 *.sh
 setup_db_environments.py
 test_security.py
+migrate*.py
 
 # Reglas y configuraciones de asistentes e IDEs
 .cursor/
